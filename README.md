@@ -1,25 +1,5 @@
-# 🧠 Neural Network from Scratch in Rust
 
-[![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge)]()
-
-A complete neural network implementation built from scratch in Rust using only `ndarray` for linear algebra. No TensorFlow, no PyTorch, no external ML libraries - just pure mathematics and high-performance Rust code.
-
-
-watch the youtube video ! :
-
-
-https://youtu.be/oALzhNmhCMg
-
-<img width="640" height="420" alt="WITHOUT" src="https://github.com/user-attachments/assets/637a5136-5a3d-4a98-954b-86b7d50e1a07" />
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/image?repos=Amineharrabi/MNIST_In_Rust&type=timeline&legend=bottom-right)](https://www.star-history.com/?repos=Amineharrabi%2FMNIST_In_Rust&type=timeline&legend=bottom-right)
-
-
-## 🚀 Features
+## Features
 
 - **Zero ML Dependencies**: Built using only `ndarray` and standard Rust
 - **Memory Safe**: Leverages Rust's ownership system for safe concurrent operations  
@@ -28,14 +8,14 @@ https://youtu.be/oALzhNmhCMg
 - **Complete Pipeline**: Data loading, training, evaluation, and visualization
 - **MNIST Ready**: Includes utilities for processing the MNIST handwritten digit dataset
 
-## 📊 Performance
+## Performance
 
 - **Training Speed**: 60,000 MNIST samples processed in seconds
 - **Test Accuracy**: 97.4% on MNIST test set
 - **Memory Usage**: Minimal footprint thanks to Rust's efficiency
 - **Architecture**: 784 → 64 → 10 fully connected network
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Input Layer (784)    Hidden Layer (64)    Output Layer (10)
@@ -81,7 +61,7 @@ wget -O data/mnist_test.csv https://git.it.lut.fi/akaronen/faiml_templates/-/raw
 cargo run --release
 ```
 
-##📁 Project Structure
+## Project Structure
 
 ```
 src/
